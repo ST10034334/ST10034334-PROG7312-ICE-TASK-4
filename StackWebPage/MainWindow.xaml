@@ -1,0 +1,18 @@
+﻿<Window x:Class="StackWebPage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StackWebPage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="468" Width="800">
+    <Grid>
+        <Label Content="WebIt" HorizontalAlignment="Left" Margin="278,10,0,0" VerticalAlignment="Top" Width="108" FontSize="30"/>
+        <Button Name="btnWeb1" Foreground="White" Margin="10,129,154,226" Background="#252837" FontSize="13" Click="btnWeb1_Click"/>
+        <Button Name="btnWeb2" Foreground="White" Margin="10,231,154,124" Background="#252837" FontSize="13" Click="btnWeb2_Click"/>
+        <Button Name="btnWeb3" Foreground="White" Margin="10,333,154,22" Background="#252837" FontSize="13" Click="btnWeb3_Click"/>
+        <Button Content="History" Name="btnViewHistory" HorizontalAlignment="Left" Margin="651,0,0,0" VerticalAlignment="Top" Height="25" Width="149" Click="btnViewHistory_Click"/>
+        <ListBox Name="lstbxHistory" Margin="651,25,0,0"/>
+        <Button Content="Back" Name="btnPreviousPage" HorizontalAlignment="Left" VerticalAlignment="Bottom" RenderTransformOrigin="-0.286,0.319" Width="72" Margin="34,0,0,373" Click="btnPreviousPage_Click" Height="33"/>
+    </Grid>
+</Window>

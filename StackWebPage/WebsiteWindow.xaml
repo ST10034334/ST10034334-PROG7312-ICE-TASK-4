@@ -1,0 +1,14 @@
+﻿<Window x:Class="StackWebPage.WebsiteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StackWebPage" xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="Website" Height="450" Width="800">
+    <Grid Margin="0,0,-27,-16">
+        <wv2:WebView2 Name="webView2" Margin="38,0,-1,10" />
+        <Button Width="38" Margin="0,0,789,10" Click="GoBack_Click"/>
+        <Image Source="images/back_arrow.png" Stretch="Uniform" Margin="2,208,791,208" RenderTransformOrigin="0.216,0.726"/>
+    </Grid>
+</Window>
